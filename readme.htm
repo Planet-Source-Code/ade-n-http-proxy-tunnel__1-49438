@@ -1,0 +1,39 @@
+<html>
+<body>
+<style>
+.main {font-family:verdana,tahoma,arial; font-size:10pt;}
+</style>
+<span class="main">
+ade http tunnel v. 1.1 (2003-10-25)
+
+a http proxy tunneling program. here's a top-down sketch of what it does.<br>
+<img src="schema.gif"><br>
+<br>
+<table width=90% border=0><tr><td class="main">
+the arrows indicate the way the initial connection goes. data goes both ways
+later on, of course.
+<br><br>
+So... what you need:<br>
+1. a client program (machine A) requiring a <i>single outgoing TCP connection</i> to a remote host (machine C).<br>
+2. a http proxy blocking the client to do the above.<br>
+3. a machine (C) with a unblocked connection to the net, with the httptunnel server running.<br>
+<br>
+If you understand this clearly, you should get this software running.<br>
+However, it is worth noticing that this software is highly experimental and not very good. But it does work.. mostly :)<br>
+<br>
+I learned alot programming this program (that's why I made it), I hope you will too.<br>
+You're on your own now...<br>
+aDe<br>
+http://ade.se<br>
+<br>
+<br>
+version history<bR>
+1.1 (2003-10-31)<br>
+- added 'test tunnel' function<br>
+<br>
+1.0 (2003-10-25)<br>
+initial release<br>
+</td></tr></table>
+</span>
+</body>
+</html>
